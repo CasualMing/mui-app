@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<link rel="stylesheet" type="text/css" href="../css/one.css" />
+		<link rel="stylesheet" type="text/css" href="../css/news.css" />
+	</head>
+
+	<body>
+		<!-- 主界面菜单同时移动 -->
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable wap-width">
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 菜单容器 -->
+				<aside class="mui-off-canvas-left" id="offCanvasSide">
+					<div class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<!-- 菜单具体展示内容 -->
+							饿の让让人如
+						</div>
+					</div>
+				</aside>
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav">
+					<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+					<h1 class="mui-title">世界光怪陆离，只此足矣</h1>
+				</header>
+				<nav class="mui-bar mui-bar-tab bottom-tab">
+					<a class="mui-tab-item" href="../index.html">
+						<span class="mui-icon mui-icon-home"></span>
+						<span class="mui-tab-label">One阅读</span>
+					</a>
+					<a class="mui-tab-item " href="oneTalk.html">
+						<span class="mui-icon mui-icon-phone"></span>
+						<span class="mui-tab-label">一言</span>
+					</a>
+					<a class="mui-tab-item " href="music.html">
+						<span class="mui-icon mui-icon-email"></span>
+						<span class="mui-tab-label">网易云歌单</span>
+					</a>
+					<a class="mui-tab-item mui-active" href="news.html">
+						<span class="mui-icon mui-icon-gear"></span>
+						<span class="mui-tab-label">每日新闻</span>
+					</a>
+				</nav>
+				<!-- 主页面内容容器 -->
+				<div class="mui-content mui-scroll-wrapper one-content">
+					<div id="Gallery">
+						<div id="news-list">
+							<div class="mui-segmented-control news-tab">
+								<a class="mui-control-item mui-active" href="#item1" id="1">娱乐</a>
+								<a class="mui-control-item" href="#item2" id="2">军事</a>
+								<a class="mui-control-item" href="#item3" id="3">汽车</a>
+								<a class="mui-control-item" href="#item4" id="4">财经</a>
+								<a class="mui-control-item" href="#item5" id="5">笑话</a>
+								<a class="mui-control-item" href="#item6" id="6">体育</a>
+								<a class="mui-control-item" href="#item7" id="7">科技</a>
+								<a class="mui-control-item" href="#item8" id="8">感情</a>
+								<a class="mui-control-item" href="#item9" id="9">头条</a>
+							</div>
+							<div class="mui-slider-group new-positive">
+								<div id="item5" class="mui-slider-item mui-control-content mui-active news-view">
+									<ul class="mui-table-view news-tab-box">
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.jsdelivr.net/npm/fetch-jsonp@1.1.3/build/fetch-jsonp.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/news.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/downAndUpRefresh.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+	</body>
+
+</html>

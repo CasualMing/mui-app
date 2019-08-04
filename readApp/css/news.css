@@ -1,0 +1,34 @@
+@charset "utf-8";
+#news-list .new-positive{
+	position: static;
+}
+.new-positive input{
+	width: 100%;
+}
+.news-tab{
+	border: none;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.news-tab a.mui-control-item{
+	border: none;
+	color: #0790C9;
+}
+.mui-segmented-control .mui-control-item.mui-active{
+	color: #fff;
+	background-color: #0790C9;
+	border-radius: 5px;
+}
+.mui-active ul{
+	overflow: hidden;
+}
+.news-item-title{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 8px 10px;
+}
+.source{
+	font-size: 14px;
+	color: #DD524D;
+	margin: 10px;
+}

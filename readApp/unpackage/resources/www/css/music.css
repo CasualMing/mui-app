@@ -1,0 +1,25 @@
+.play{
+	display: none;
+}
+.mui-media-body{
+	font-weight: 300;
+	font-size: 16px;
+}
+.music-control{
+	position: absolute;
+	width: 100%;
+	bottom: 50px;
+	left: 0px;
+	z-index: 6;
+	margin: 5px auto 0px;
+}
+ .mui-inner-wrap  .music-content{
+	overflow-y: scroll;
+	padding-bottom: 70px;
+}
+.bottom-tab a{
+	cursor: pointer;
+}
+.bottom-tab-par .music-control .aplayer-list{
+	display: none;
+}

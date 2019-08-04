@@ -1,0 +1,33 @@
+.talk-item{
+	font-size: 0px;
+	padding: 10px 0px;
+}
+.talk-item h4{
+	font-size: 16px;
+	font-weight: 100;
+	margin: 10px 0px;
+}
+.talk-cover-anchor{
+	font-size: 12px;
+	transform: scale(.9);
+	color: #8F8F94;
+	letter-spacing: 1px;
+	margin:10px 20px 0px;
+}
+.talk-content{
+	margin: 8px 20px 0px;
+}
+.talk-anchor{
+	font-weight: 200;
+	font-size: 16px;
+}
+.photo-item input{
+	width: 100%;
+}
+.talk-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 30px;
+}

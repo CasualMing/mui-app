@@ -1,0 +1,62 @@
+
+
+.one-item-info {
+	padding-bottom: 10px;
+}
+
+.one-item-info p {
+	margin: 0px auto;
+	width: 95%;
+}
+
+.one-item-info p:nth-of-type(1) {
+	font-size: 12px;
+	transform: scale(.6);
+	letter-spacing: 3px;
+	margin: 0px auto;
+}
+
+.one-item-info p:nth-of-type(2) {
+	font-size: 12px;
+	margin:5px auto;
+}
+
+.one-item-info h2 {
+	color: #333333;
+	width: 95%;
+	font-size: 14px;
+	font-weight: 200;
+	margin: 0px auto;
+}
+
+
+.one-card-header {
+	color: #929292;
+	font-size: 12px;
+}
+.one-scroll a{
+	display: block;
+}
+.one-content a{
+	display: block;
+}
+.one-text{
+	color: orangered;
+	font-size: 12px;
+	background-color: #fff;
+	padding: 5px;
+	margin: 10px;
+}
+.one-item-info .save{
+	color: #000;
+	text-align: right;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto 0px;
+}
+.save-icon{
+	font-size: 30px;	
+}
